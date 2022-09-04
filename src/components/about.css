@@ -1,0 +1,129 @@
+.container-about {
+
+    display: flex;
+    margin-bottom: 15%;
+}
+
+.container-about h1 {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: .75rem;
+
+    font-weight: 800;
+    color: hsl(250, 8%, 15%);
+}
+
+.container-about h3 {
+    font-size: 18px;
+    margin: 0;
+    color: hsl(250, 8%, 45%);
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+
+.photo-about {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-about img {
+    width: 300px;
+    max-height: 500px;
+    border-radius: 5px;
+
+}
+
+.description-about {
+
+    flex-direction: column;
+    flex: 1;
+    margin-top: 60px;
+    min-width: 300px;
+}
+
+.description-about h1 {
+    justify-content: left;
+}
+
+
+
+
+.button-about {
+
+    background-color: hsl(250, 69%, 61%);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    justify-self: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-download {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+    .container-about {
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .button-about-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+
+
+    .presentation-emoji-size {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 800px) {
+
+
+    .photo-about img {
+        margin-top: 30px;
+        box-shadow: none;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 340px) {
+    .presentation-container {
+        display: block;
+        flex-wrap: wrap;
+        padding-top: 50%;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+}

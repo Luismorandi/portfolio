@@ -1,0 +1,58 @@
+.container-form {
+
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 18%;
+  display: flex;
+
+}
+
+.div-input-cart {
+  margin-bottom: 20px;
+}
+
+
+.input-contact {
+
+  width: 100%;
+  margin: 6px 0px;
+  border-radius: 5px;
+  background: hsl(0, 0%, 91%);
+  color: hsl(0, 0%, 30%);
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  text-indent: 5px;
+  border: none;
+
+}
+
+.input-sendmail {
+
+  background-color: hsl(250, 69%, 61%);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.icon-loading {
+  width: 30px;
+  height: 30px;
+}
+
+label {
+  color: hsl(250, 8%, 45%);
+  ;
+
+}
+
+
+
+
+.inputContact:focus {
+  outline: 2px solid hsl(250, 69%, 61%);
+}
