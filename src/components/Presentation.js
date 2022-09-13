@@ -7,17 +7,17 @@ const Presentation = () => {
   return (
     <div className="presentation-container" id="home">
       <div className="presentation-description">
-        <h1>Hola, Soy Luis :) </h1>
+        <h1>Hola, soy Luis :) </h1>
         <h3>FrontEnd Developer</h3>
         <h4>
-          Soy desarrollador FrontEnd. Gracias por ver mi Portfolio, espero que
-          podamos hablar pronto!
+          Gracias por ver mi Portfolio, espero que
+          podamos hablar pronto. 
         </h4>
         <div>
-          <a href="https://github.com/Luismorandi" target="_blank">
+          <a href="https://github.com/Luismorandi" target="_blank" rel="noreferrer">
             <img src={Github} alt="" className="icon-presentation" />
           </a>
-          <a href="https://www.linkedin.com/in/luismorandi/" target="_blank">
+          <a href="https://www.linkedin.com/in/luismorandi/" target="_blank" rel="noreferrer">
             <img src={LinkedinIcon} alt="" className="icon-presentation" />
           </a>
         </div>

@@ -15,10 +15,10 @@ const Project = ({ name, id, description, linkGithub, linkDemo }) => {
         <p className="portfolio-description">{description}</p>
 
         <div>
-          <a href={linkGithub} target="_blank">
+          <a href={linkGithub} target="_blank" rel="noreferrer">
             <img src={Github} alt=""  />
           </a>
-          <a href={linkDemo} target="_blank">
+          <a href={linkDemo} target="_blank" rel=" noreferrer">
             <img src={LinkIcon} alt=""  />
           </a>
         </div>

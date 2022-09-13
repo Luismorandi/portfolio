@@ -23,7 +23,7 @@ const NavBar = () => {
                 to={section.id}
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-120}
                 duration={800}
                 className="a-navbar"
               >

@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
 
+
 }
 
 .presentation-description {
@@ -13,8 +14,9 @@
 }
 
 .presentation-description h1 {
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
-    font-size: 60px;
+    font-size: 70px;
     margin-bottom: .75rem;
     font-weight: 800;
     color: hsl(250, 8%, 15%);
@@ -22,18 +24,20 @@
 }
 
 .presentation-description h3 {
-    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
     margin: 0;
-
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: .75rem;
+    color: hsl(250, 8%, 15%);
 }
 
 .presentation-description h4 {
-    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
     margin: 0;
-    color: hsl(250, 8%, 45%);
-    font-weight: 700;
+    color: hsl(252, 2%, 40%);
+    font-weight: 400;
     margin-bottom: .75rem;
 }
 
@@ -52,7 +56,7 @@
 .presentation-emoji {
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 

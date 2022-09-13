@@ -1,4 +1,4 @@
-.portfolio-title {
+.portfolio-title-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,12 +6,16 @@
     font-size: 60px;
     font-weight: 800;
     color: hsl(250, 8%, 15%);
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 60px;
+    min-width: 500px;
 
 }
 
 .portfolio-container {
     display: flex;
     overflow: initial;
+    margin-bottom: 150px;
 
 }
 

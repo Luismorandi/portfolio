@@ -29,12 +29,21 @@ const projects = [
       linkGithub:"https://github.com/Luismorandi/superapp",
       linkDemo:"https://kaleidoscopic-puppy-671b33.netlify.app/",
   },
+  {
+    name: "Portfolio Luis Morando",
+    img: "../assets/yo3.png",
+    id: 4,
+    description:
+      "AllStore es un  eCommerce hecho con React, utilizando Firestore para los datos. Puedes hacer una compra completa, con 3 funcionalidades principales.",
+      linkGithub:"https://github.com/Luismorandi/portfolio.git",
+      linkDemo:"https://kaleidoscopic-puppy-671b33.netlify.app/",
+  },
 ];
 
 const PortfolioContainer = () => {
   return (
     <>
-      <div className="portfolio-title" id="projects">Portfolio</div>
+      <div className="portfolio-title-container" id="projects">Portfolio</div>
       <div className="portfolio-container" >
         <PortfolioList projects={projects} />
       </div>
