@@ -57,3 +57,12 @@ label {
 .inputContact:focus {
   outline: 2px solid hsl(250, 69%, 61%);
 }
+
+@media (max-width: 1200px) {
+  .container-form {
+
+    margin-left: 10%;
+    margin-right: 10%;
+  
+  }
+}

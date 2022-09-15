@@ -79,6 +79,14 @@ a {
         gap: 1.5rem;
     }
 
+    .portfolio-title {
+  
+
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    
+
     .portfolio-content {
         grid-template-columns: none;
         flex-direction: column;
@@ -87,7 +95,7 @@ a {
 
     .portfolio-img {
         height: 250px;
-        width: 100%;
+        width: 90%;
         border-radius: 5px;
         justify-content: center;
     }
@@ -98,6 +106,13 @@ a {
         align-items: center;
         text-align: center;
      }
+     .portfolio-description {
+
+        font-size: 18px;
+        font-weight: 400;
+
+ 
+    }
 }
 
 @media (max-width: 340px) {}

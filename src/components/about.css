@@ -35,7 +35,7 @@
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .photo-about img {
@@ -91,7 +91,7 @@
         flex-direction: column-reverse;
         flex-wrap: wrap-reverse;
         margin-left: 10%;
-        margin-right: 10%;
+        margin-right: 5%;
         justify-content: center;
         text-align: center;
 
@@ -102,12 +102,46 @@
         justify-content: center;
         margin-bottom: 5%;
     }
-
-
-
-    .presentation-emoji-size {
-        max-width: 450px;
+    .photo-about img {
+        margin-top: 30px;
+        box-shadow: none;
+        max-width: 150px;
+   
     }
+    .tittle-about h1 {
+ 
+        font-size: 45px;
+        font-weight: 800;
+
+    }
+
+    .container-about h3 {
+
+        font-size: 18px;
+  
+    }
+
+    .button-about {
+
+
+        font-size: 18px;
+
+    
+    }
+
+    .icon-download {
+        width: 35px;
+        height: 35px;
+    
+    }
+
+    .photo-about {
+
+        justify-content: center;
+    }
+    
+    
+
 }
 
 @media (max-width: 800px) {

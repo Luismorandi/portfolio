@@ -68,7 +68,6 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-
     font-size: 18px;
 
 }
@@ -79,12 +78,38 @@
     .presentation-container {
 
         margin-left: 10%;
+        margin-right: 10%;
 
+    }
+    .presentation-description h1 {
+
+        font-size: 45px;
+        font-weight: 800;
+   
+    
+    }
+    .presentation-description h3 {
+        font-size: 25px;
+        font-weight: 500;
+
+    }
+    .presentation-description h4 {
+
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+    .presentation-emoji {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
     .presentation-emoji-size {
-        max-width: 450px;
+       
+        max-width: 200px;
+        margin-bottom: 40%;
     }
 }
 
@@ -104,9 +129,6 @@
 
 
 
-    .presentation-emoji-size {
-        max-width: 300px;
-    }
 
 
 }
