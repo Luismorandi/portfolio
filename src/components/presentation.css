@@ -137,7 +137,7 @@
     .presentation-container {
         display: block;
         flex-wrap: wrap;
-        padding-top: 50%;
+        padding-top: 20%;
         justify-content: center;
         text-align: center;
         height: auto;
