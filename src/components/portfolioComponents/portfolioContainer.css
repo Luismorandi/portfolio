@@ -63,6 +63,13 @@
 
 }
 
-@media (max-width: 340px) {}
+@media (max-width: 340px) {
+    .portfolio-title-container {
+
+        margin-bottom: 0;
+
+    
+    }
+}
 
 

@@ -51,7 +51,7 @@ const NavBar = () => {
                 spy={true}
                 hashSpy={true}
                 smooth={true}
-                offset={-120}
+                offset={-80}
                 duration={600}
                 spyThrottle={100}
                 className="a-navbar"

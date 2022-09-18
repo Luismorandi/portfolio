@@ -30,7 +30,7 @@ const projects = [
       linkDemo:"https://kaleidoscopic-puppy-671b33.netlify.app/",
   },
   {
-    name: "Portfolio Luis Morando",
+    name: "Portfolio LM",
     img: "../assets/yo3.png",
     id: 4,
     description:

@@ -97,6 +97,12 @@ a {
         width: 90%;
         border-radius: 5px;
         justify-content: center;
+    
+
+            height: 140px;
+            margin-bottom: 25px;
+        
+       
     }
     .portfolio-data{
         display: flex;
@@ -115,9 +121,12 @@ a {
 }
 
 @media (max-width: 340px) {
-    .portfolio-img {
 
-    height: 140px;
+
+.portfolio-title {
+
+
+    margin-bottom: 0
 
 }
 }
