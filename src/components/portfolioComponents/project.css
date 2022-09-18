@@ -33,7 +33,6 @@
     font-size: 25px;
     color: hsl(250, 8%, 45%);
     font-weight: 400;
-    margin-right: 35px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -115,4 +114,10 @@ a {
     }
 }
 
-@media (max-width: 340px) {}
+@media (max-width: 340px) {
+    .portfolio-img {
+
+    height: 140px;
+
+}
+}

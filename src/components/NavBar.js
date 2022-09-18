@@ -15,8 +15,14 @@ const NavBar = () => {
   const [activeMenu, setActiveMenu]= useState (true)
 
   const hiddenMenu = () =>{
+    if(activeMenu === true) {
+      setActiveMenu(false)
 
-    setActiveMenu(false)
+    }
+
+    else{
+      setActiveMenu(true)
+    }
     
   }
 
@@ -29,11 +35,11 @@ const NavBar = () => {
       <img src={Logo} alt="" id="logo" />{" "}
     </Link>
     <div>
-      <label htmlFor="check">
-    <img src={Menu} alt="" className="menu-logo"/>
-      </label>
-      <input type="checkbox" id="check" />
-      <ul className="submenu-navbar">
+    <img src={Menu} alt="" className="menu-logo" onClick={hiddenMenu}/>
+
+      <ul className={
+        activeMenu ===true ? "submenu-navbar" : " submenu-navbar2"
+      }>
        
 
         {sections.map((section, index) => (
