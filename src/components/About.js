@@ -4,10 +4,14 @@ import DownloadIcon from "../assets/iconDownload.png";
 
 const About = () => {
   return (
-    <>
-    <div className="tittle-about" id="about">
+    
+    <section className="section-about-container" id="about">
+      <div>
+
+
+    <div className="tittle-about" >
         <h1>Sobre mi</h1>
-        </div> 
+    </div> 
     <div className="container-about" >
     <div className="description-about">
         <h3>
@@ -37,7 +41,9 @@ const About = () => {
      
       
     </div>
-    </>
+      </div>
+    </section>
+  
   );
 };
 

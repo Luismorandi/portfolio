@@ -5,6 +5,8 @@ import LinkedinIcon from "../assets/linkedinIcon.png";
 
 const Presentation = () => {
   return (
+    <section className="section-presentation-container">
+
     <div className="presentation-container" id="home">
       <div className="presentation-description">
         <h1>Hola, soy Luis :) </h1>
@@ -26,6 +28,7 @@ const Presentation = () => {
         <img src={Yo} alt="" className="presentation-emoji-size" />
       </div>
     </div>
+    </section>
   );
 };
 

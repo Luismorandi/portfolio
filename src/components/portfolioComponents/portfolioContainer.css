@@ -1,3 +1,7 @@
+
+
+
+
 .portfolio-title-container {
     display: flex;
     justify-content: center;
@@ -15,7 +19,7 @@
 .portfolio-container {
     display: flex;
     overflow: initial;
-    margin-bottom: 150px;
+
 
 }
 

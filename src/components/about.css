@@ -1,3 +1,11 @@
+.section-about-container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .container-about {
 
     display: flex;

@@ -42,12 +42,18 @@ const projects = [
 
 const PortfolioContainer = () => {
   return (
-    <>
+    
+    <section className="section-portfolio-container" id="projects">
+      <div className="maxwidth">
+
+
       <div className="portfolio-title-container" id="projects">Portfolio</div>
       <div className="portfolio-container" >
         <PortfolioList projects={projects} />
       </div>
-    </>
+      </div>
+    </section>
+    
   );
 };
 
