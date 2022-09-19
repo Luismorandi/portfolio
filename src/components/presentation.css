@@ -1,6 +1,7 @@
 .section-presentation-container{
 
     display: flex;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
@@ -143,7 +144,7 @@
     .presentation-container {
         display: block;
         flex-wrap: wrap;
-        padding-top: 20%;
+        padding-top: 28%;
         justify-content: center;
         text-align: center;
         height: auto;
