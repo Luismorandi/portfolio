@@ -91,9 +91,13 @@
 }
 
 
+.photo-about img {
+
+    min-width: 300px;
 
 
 
+}
 
 @media (max-width: 1200px) {
 
@@ -115,7 +119,7 @@
     .photo-about img {
         margin-top: 30px;
         box-shadow: none;
-        max-width: 150px;
+        min-width: 200px;
    
     }
     .tittle-about h1 {
@@ -160,6 +164,7 @@
     .photo-about img {
         margin-top: 30px;
         box-shadow: none;
+        max-width: 150px;
     }
 
 

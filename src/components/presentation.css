@@ -67,6 +67,12 @@
     align-items: center;
 }
 
+.presentation-emoji-size {
+       
+    max-width: 250px;
+
+}
+
 .button-presentation {
     display: inline-block;
     background-color: hsl(250, 69%, 61%);
@@ -108,15 +114,17 @@
     }
     .presentation-emoji {
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
+       
     }
 
 
     .presentation-emoji-size {
        
-        max-width: 200px;
-        margin-bottom: 40%;
+        max-width: 180px;
+      
+      
     }
 }
 
@@ -133,7 +141,22 @@
     }
 
 
+    .presentation-emoji {
+        
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40%;
+       
+       
+    }
 
+    .presentation-emoji-size {
+       
+        max-width: 150px;
+    
+    }
+
+ 
 
 
 
@@ -149,5 +172,7 @@
         text-align: center;
         height: auto;
     }
+
+    
 
 }

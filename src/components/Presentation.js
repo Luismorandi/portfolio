@@ -1,5 +1,5 @@
 import "./presentation.css";
-import Yo from "../assets/yo.gif";
+import Yo from "../assets/yo.png";
 import Github from "../assets/github.png";
 import LinkedinIcon from "../assets/linkedinIcon.png";
 

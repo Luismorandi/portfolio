@@ -1,5 +1,5 @@
 import "./about.css";
-import ImageAbout from "../assets/fotoyo.gif";
+import ImageAbout from "../assets/fotoyo.png";
 import DownloadIcon from "../assets/iconDownload.png";
 
 const About = () => {
