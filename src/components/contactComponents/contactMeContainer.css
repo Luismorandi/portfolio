@@ -3,13 +3,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 min-height: 100vh;
+
 }
 
 .title-contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+
     font-size: 60px;
     margin-bottom: .75rem;
     font-weight: 800;
@@ -56,7 +57,6 @@ min-height: 100vh;
     margin-left: 30px;
 
 }
-
 
 
 
@@ -112,3 +112,4 @@ min-height: 100vh;
 }
 
 @media (max-width: 340px) {}
+

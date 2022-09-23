@@ -5,15 +5,15 @@ import linkedin from "../../assets/linkedin.png";
 
 const ContactMeContainer = () => {
   return (
-    <section className="section-contact-container">
+    <section className="section-contact-container" id="contact">
       <div>
-        <div className="title-contact" id="contact">
+        <div className="title-contact" >
           Contactame
         </div>
 
         <div className="container-contact">
           <div className="options-contact">
-            <div>Puedes enviarme un mensaje a :</div>
+            <div>Puedes enviarme un mensaje a:</div>
             <div>
               <a href="https://wa.me/541167232714">
                 <img src={whatsapp} alt="" className="whatsapp-icon" />

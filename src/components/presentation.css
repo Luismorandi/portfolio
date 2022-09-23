@@ -85,7 +85,6 @@
 
 }
 
-
 @media (max-width: 1200px) {
 
     .presentation-container {
@@ -119,6 +118,17 @@
        
     }
 
+
+    .presentation-emoji-size {
+       
+        max-width: 180px;
+      
+      
+    }
+}
+@media (max-height: 700px) {
+
+ 
 
     .presentation-emoji-size {
        

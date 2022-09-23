@@ -39,8 +39,10 @@
 }
 
 
-a {
+.portfolio-content a {
     text-decoration: none;
+    justify-self: center;
+  
 }
 
 .button {

@@ -69,36 +69,7 @@ const NavBar = () => {
  
           </div>
   </header>
-/*     <div className="navbar-container">
-      <div className="menu-navbar-container">
-        <Link to="/" className="logo-container">
-          <img src={Logo} alt="" className="logo" />
-        </Link>
-        <label htmlFor="check">
-        <Link to="/" className="logo-container">
-          <img src={Menu} alt="" className="menu-logo" />
-        </Link>
-        </label>
-        <input type="checkbox" id="check" />
-      
-        <ul className="menu-list">
-          {sections.map((section, index) => (
-            <li key={index} className="li-navbar">
-              <Link
-                to={section.id}
-                spy={true}
-                smooth={true}
-                offset={-120}
-                duration={800}
-                className="a-navbar"
-                >
-                {section.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div> */
+
   );
 };
 
