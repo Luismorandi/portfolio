@@ -4,11 +4,13 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
+   
 }
 .presentation-container {
     height: 100vh;
     display: flex;
-
+    width: 1200px;
 
 }
 
@@ -63,13 +65,15 @@
 .presentation-emoji {
     display: flex;
     flex: 1;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
+
 }
 
 .presentation-emoji-size {
        
     max-width: 250px;
+    margin-left: 140px;
 
 }
 
@@ -122,6 +126,7 @@
     .presentation-emoji-size {
        
         max-width: 180px;
+        margin-left: 0px;
       
       
     }

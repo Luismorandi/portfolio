@@ -36,7 +36,7 @@ const projects = [
     description:
       "AllStore es un  eCommerce hecho con React, utilizando Firestore para los datos. Puedes hacer una compra completa, con 3 funcionalidades principales.",
       linkGithub:"https://github.com/Luismorandi/portfolio.git",
-      linkDemo:"https://kaleidoscopic-puppy-671b33.netlify.app/",
+      linkDemo:"https://dulcet-nougat-e7bb59.netlify.app/",
   },
 ];
 
