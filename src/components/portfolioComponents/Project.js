@@ -5,7 +5,7 @@ import LinkIcon from "../../assets/link.png"
 const Project = ({ name, id, description, linkGithub, linkDemo }) => {
   return (
     <div className="portfolio-content grid">
-       <a href={linkDemo} target="_blank" rel=" noreferrer">
+       <a href={linkDemo} target="_blank" rel=" noreferrer" className="linkto">
       
       <img
         src={require(`../../assets/image${id}.png`)}
