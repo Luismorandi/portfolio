@@ -28,11 +28,14 @@ const About = () => {
           Puedes ver más sobre mi, mis skills y los certificados de mis cursos en mi CV.
         </h3>
         <div className="button-about-container">
+        <a href="https://drive.google.com/file/d/1agLl00eUAMu8nHDsqeCpTXhb33qE123y/view?usp=sharing" className="link-about" target="_blank" rel=" noreferrer">
+
           <button className="button-about">
             {" "}
             Descarga mi CV{" "}
             <img src={DownloadIcon} alt="" className="icon-download" />
           </button>
+        </a>
         </div>
         </div>
       <div className="photo-about">

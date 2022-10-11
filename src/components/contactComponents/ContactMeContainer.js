@@ -5,8 +5,8 @@ import linkedin from "../../assets/linkedin.png";
 
 const ContactMeContainer = () => {
   return (
-    <section className="section-contact-container" id="contact">
-      <div>
+    <section className="section-contact-container" >
+      <div id="contact">
         <div className="title-contact" >
           Contactame
         </div>
