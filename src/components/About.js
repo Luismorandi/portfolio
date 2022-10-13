@@ -22,13 +22,13 @@ const About = () => {
         </h3>
         <h3>
           Soy de Venezuela pero estoy en Buenos Aires hace unos 8 años. En el 2021
-          culmine la carrerra FrontEnd dev y mis skills principales hoy son: Javascript, typescript, HTML, CSS y React.
+          culmine la carrerra FrontEnd dev y mis skills principales hoy son: Javascript, typescript, HTML, CSS y React. Como añadido tengo conocimiento en UX.
         </h3>
         <h3>
           Puedes ver más sobre mi, mis skills y los certificados de mis cursos en mi CV.
         </h3>
         <div className="button-about-container">
-        <a href="https://drive.google.com/file/d/1agLl00eUAMu8nHDsqeCpTXhb33qE123y/view?usp=sharing" className="link-about" target="_blank" rel=" noreferrer">
+        <a href="https://drive.google.com/file/d/1lWybNAcCjW7veUiXm58CiWo5eJPoK24l/view?usp=sharing" className="link-about" target="_blank" rel=" noreferrer">
 
           <button className="button-about">
             {" "}
