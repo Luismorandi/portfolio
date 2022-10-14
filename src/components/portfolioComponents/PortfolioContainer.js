@@ -34,7 +34,7 @@ const projects = [
     img: "../assets/yo3.png",
     id: 4,
     description:
-      "AllStore es un  eCommerce hecho con React, utilizando Firestore para los datos. Puedes hacer una compra completa, con 3 funcionalidades principales.",
+      "Mi portfolio lo hice en ReactJs, con algunas librerías como SwipperJs o eMailJs. Tiene la intención de ser una página de presentación de mi perfil.",
       linkGithub:"https://github.com/Luismorandi/portfolio.git",
       linkDemo:"https://dulcet-nougat-e7bb59.netlify.app/",
   },

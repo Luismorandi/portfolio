@@ -8,7 +8,7 @@ const ContactMeContainer = () => {
     <section className="section-contact-container" >
       <div id="contact">
         <div className="title-contact" >
-          Contactame
+          Contáctame
         </div>
 
         <div className="container-contact">
